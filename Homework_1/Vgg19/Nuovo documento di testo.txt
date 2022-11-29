@@ -1,0 +1,13 @@
+starting from the same model i have tryed different fine tuneds considering 
+differents trainable layers (17 15 13 11)
+
+at the momement the best one is 13
+
+ensured tha t the 13 layers are the best result now i m performing a test using
+lower learning rate and one with longer early stop
+
+both are substancially equivalent
+
+try one with more batch size (no improvment)
+
+try introducing cutout augmentation (no improvment maybe requires more work on it)

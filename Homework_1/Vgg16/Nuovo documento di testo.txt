@@ -1,0 +1,51 @@
+come back to vgg16 to test the cancelling of pixels
+
+first try with 800s for the class with lower accuracy
+
+not improve the best model 
+
+noted that the worst class' performance i tryed to increase a lot the db on this two classe 
+
+class 1 and 8
+
+i have gain an improvment on the avg accuracy but not the attended one on the class 1 and 8 
+with respect to the leo's model
+
+can we may increase again?
+
+	leo:				dani:
+avg	0.8183 (113)			0.8214 (110)
+1	0.6320 (220)			0.6226 (226)
+2	0.8059 (231)			0.8299 (179)
+3	0.9206 (103)			0.9074 (133)
+4	0.8272 (171)			0.7879 (239)
+5	0.8742 (161)			0.8640 (181)
+6	0.8296 (207)			0.8763 (125)
+7	0.9080 (185)			0.9179 (153)
+8	0.7262 (254)			0.7299 (248)
+
+i have submitted a model trained with 2100 700 and 600 samples considering differences between
+above stats
+
+0.8357 (93)  
+1 	0.6871 (154)  
+2 	0.8649 (106)  
+3 	0.8863 (186)  
+4 	0.8039 (224)  
+5 	0.8467 (227)  
+6 	0.8912 (98)  
+7 	0.9096 (177)  
+8 	0.7796 (172)
+
+we can se that increasing from 1200 to 2100 samples class1 has improved the accuracy significatly
+and the same for class 8 (wow! it's happed exactly what i was expected to happen)
+
+0.8389 (101)	
+1	0.6810 (190)	
+2	0.8383 (186)	
+3	0.9119 (147)	
+4	0.8262 (208)	
+5	0.8869 (150)	
+6	0.8514 (193)	
+7	0.9208 (154)	
+8	0.7688 (221)

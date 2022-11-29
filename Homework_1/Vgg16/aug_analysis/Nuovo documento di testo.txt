@@ -1,0 +1,92 @@
+################################ aug_1 #################################
+aug_train_data_gen = ImageDataGenerator(
+                                        height_shift_range=5,
+                                        width_shift_range=5,
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                        preprocessing_function = preprocess_input,
+                                  
+                                        ) 
+perfromances 0.84
+########################################################################
+
+################################ aug_5 ##################################
+# Create an instance of ImageDataGenerator with Data Augmentation
+aug_train_data_gen = ImageDataGenerator(
+                                        height_shift_range=48,
+                                        width_shift_range=48,
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                        preprocessing_function = preprocess_input,
+                                        # rescale=1/255. not on vgg16
+                                        ) 
+performances 0.825 shifts
+##########################################################################
+
+################################ aug_4 ##################################
+aug_train_data_gen = ImageDataGenerator(
+					rotation_range=180,
+                                        height_shift_range=5,
+                                        width_shift_range=5,
+                                     
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                       
+                                        preprocessing_function = preprocess_input,
+                                        
+                                        )
+performances 0.81 rotation decrease performances
+##########################################################################
+
+################################ aug_2 ###################################
+					(rotation_range=180,
+                                        height_shift_range=48,
+                                        width_shift_range=48,
+                                        zoom_range=0.3,
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                        preprocessing_function = preprocess_input,
+                                        # rescale=1/255. not on vgg16
+                                        )
+downgrade of the performances 0.78 zoom
+###############################################################
+
+#################### aug_6 ####################################
+
+aug_train_data_gen = ImageDataGenerator(
+                                        height_shift_range=5,
+                                        width_shift_range=5,
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                        fill_mode = 'reflect', 
+                                        preprocessing_function = preprocess_input,
+                                        # rescale=1/255. not on vgg16
+                                        ) 
+0.77 fill_mode
+###############################################################
+#################### aug_7 ####################################
+
+# Create an instance of ImageDataGenerator with Data Augmentation
+aug_train_data_gen = ImageDataGenerator(rotation_range=90,
+                                        height_shift_range=5,
+                                        width_shift_range=5,
+                                        horizontal_flip=True,
+                                        vertical_flip=True, 
+                                        preprocessing_function = preprocess_input,
+                                        # rescale=1/255. not on vgg16
+                                        )
+0.75 rotation
+###############################################################
+#################### aug_3 ####################################
+
+aug_train_data_gen = ImageDataGenerator(rotation_range=180,
+                                        height_shift_range=48,
+                                        width_shift_range=48,
+                                        horizontal_flip=True,
+                                        vertical_flip=True,
+                                        brightness_range=(0.2, 0.8),  
+                                        preprocessing_function = preprocess_input,
+                                        # rescale=1/255. not on vgg16
+                                        ) 
+downgrade of the performances 0.73 brightness
+###############################################################
