@@ -1,38 +1,48 @@
 # AN2DL-challenge2
 
-## What is
-This is the repository which contains the submission to the second challenge of the course **Artificial Neural Networks and Deep Learning** at Politecnico di Milano.
+## Overview
 
-Challenge 2 - Team name: **Dead_Neurons**
+Welcome to the **AN2DL-challenge2** repository! This repository contains the submission to the second challenge of the course **Artificial Neural Networks and Deep Learning** at Politecnico di Milano.
 
-University: **Politecnico di Milano, Laurea Magistrale (MSc) - Computer Science and Engineering**
+### Team Information
 
-## How the competition works
-We had 2 weeks during the semester to develop notebooks related to Neural Networks. The role of this Network is to perform time series forecasting. The zipped dataset was given us from the professors. They kept a private test set for scoring models. The metric used to compute a "leaderboard" is the Root Mean Squared Error (RMSE). We could participate to the challenge in groups of 3.
-The Leaderboard was just for us, the main purpose of this challenge (competition) is to explore the world of Time Series classification, and to gain more experience as possible in this field.
+- Team name: **NonDormoLucido**
+- University: **Politecnico di Milano, Laurea Magistrale (MSc) - Computer Science and Engineering**
 
-**DISCLAIMER**: We know that using multiple times the same dataset is wrong (because, using it multiple times results in being biased with respect to it). We used the remote test set many times, only because was the first time that we were approaching NNs, and hence we treated it more like a "validation set".
+## Challenge Description
 
-The zipped file of the dataset just contained a folder, named "train", in which there were time series samples. Pre processing (as splitting in folders, or any other kind of augmentation on images) was left to us. We had to develop different techniques in order to make classification with the time series (such as *attention*), and to exploit different approaches.
+The challenge was part of the course project and focused on Neural Networks and time series classification. Participants had two weeks to develop notebooks related to the task. The provided dataset was in zipped format, and a private test set was held by the professors to evaluate the models. The challenge allowed participation in groups of three, and the main objective was to explore the world of Time Series classification and gain experience in this field.
 
-## How we divided the work
-We concorded together three different approach to this problem. Everyone developed one of them, and we communicated in order to decide how to move. Main ideas were concorded together, and applied to the chosen approach.
+## Dataset Description
 
-## How to replicate our results
-Be careful when running the notebook. Often, also from the same author, the path to the folders (both for checkpoints, testing, or loading images) changes, due to the fact that we may run the notebook in a different environment. Please, **adjust your folder path** according to your system. We mainly used Google Colab with Google Drive.
+The zipped file of the dataset contained a folder named "train," which included various time series samples. Participants were responsible for pre-processing tasks, such as data splitting and any required augmentation on the time series. The challenge encouraged the implementation of different techniques for time series classification, such as *attention*, and the exploration of various approaches.
 
-## Where are all the commits?
-Unfortunately, since we worked with Google Colab (hence, on Google Drive), we had no time to keep a copy of every single change also on GitHub, hence we decided to put here only the submission folder as a main reference.
+## Team Approach
 
-## Submission
-We had to submit all the scripts we (eventually) used, all the notebooks commented, and a final report of maximum 3 pages, explaining the approach we followed
+We approached the challenge by collectively defining three different methods to solve the problem. Each team member took responsibility for developing one of these approaches. We maintained regular communication to discuss ideas and progress and collectively agreed on key decisions that influenced our chosen approach.
 
-## Score
-The exam was scored in this way:
-- 20 points of written exam
-- 5 + 0.5 points of challenge 1
-- 5 + 0.5 points of challenge 2
+## Replicating Our Results
 
-The two challenges had 0.5 points of bonus for well done works in order to be able to reach 31 and get the laude.
+Please exercise caution when running the provided notebooks. The paths to folders (e.g., checkpoints, testing, or loading images) might differ due to varying environments. To replicate our results, **adjust the folder paths** according to your system setup. We primarily used Google Colab in conjunction with Google Drive.
 
-In this challenge we got all the points (5.5).
+## Version Control
+
+As we extensively utilized Google Colab and worked on Google Drive, we could not maintain copies of every single change on GitHub. Therefore, we have included only the final submission folder as the main reference.
+
+## Submission Details
+
+As part of the challenge requirements, we submitted all the scripts used, thoroughly commented notebooks, and a final report of maximum 3 pages, explaining our approach.
+
+## Scoring
+
+The evaluation for the course consisted of the following components:
+
+- 20 points for the written exam
+- 5 + 0.5 points for challenge 1
+- 5 + 0.5 points for challenge 2
+
+Additional bonus points (0.5) were available for exceptional work, which could contribute towards reaching 31 points and achieving laude.
+
+In this challenge, we were able to achieve the maximum points (5.5) for our submission.
+
+Thank you for visiting our repository and exploring our work! If you have any questions or suggestions, feel free to reach out to us. We hope our efforts in tackling this challenge will be helpful and insightful for you in your own explorations of Neural Networks and time series classification.
