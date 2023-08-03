@@ -1,37 +1,53 @@
 # AN2DL-challenge1
 
-## What is
-This is the repository which contains the submission to the first challenge of the course **Artificial Neural Networks and Deep Learning** at Politecnico di Milano.
+## Overview
 
-Challenge 1
+Welcome to the **AN2DL-challenge1** repository! This repository contains the submission for the first challenge of the course **Artificial Neural Networks and Deep Learning** at Politecnico di Milano.
 
-University: **Politecnico di Milano, Laurea Magistrale (MSc) - Computer Science and Engineering**
+### Team Information
 
-## How the competition works
-We had 2 weeks during the semester to develop notebooks related to Neural Networks. The role of this Network is to detect the type of the plant by looking at the leaves. The zipped dataset was given us from the professors. They kept a private test set for scoring models. The metric used to compute a "leaderboard" is the mean accuracy. We could participate to the challenge in groups of 3.
-The Leaderboard was just for us, the main purpose of this challenge (competition) is to explore the world of Image Classification, and to gain more experience as possible in this field.
-**DISCLAIMER**: We know that using multiple times the same dataset is wrong (because, using it multiple times results in being biased with respect to it). We used the remote test set many times, only because was the first time that we were approaching NNs, and hence we treated it more like a "validation set".
+- Team name: **NonDormoLucido**
+- University: **Politecnico di Milano, Laurea Magistrale (MSc) - Computer Science and Engineering**
 
-The zipped file of the dataset just contained a folder, named "train", in which there were leaves from different classes. Pre processing (as splitting in folders, or any other kind of augmentation on images) was left to us. We developed some scripts in order to better manage it.
+### Challenge Details
 
-## How we divided the work
-We concorded together three different approach to this problem. Everyone developed one of them, and we communicated in order to decide how to move. Main ideas were concorded together, and applied to the chosen approach.
+- Challenge Name: Challenge 1
+- University: Politecnico di Milano, Laurea Magistrale (MSc) - Computer Science and Engineering
 
-## How to replicate our results
-Be careful when running the notebook. Often, also from the same author, the path to the folders (both for checkpoints, testing, or loading images) changes, due to the fact that we may run the notebook in a different environment. Please, **adjust your folder path** according to your system. We mainly used Google Colab with Google Drive.
+## Challenge Description
 
-## Where are all the commits?
-Unfortunately, since we worked with Google Colab (hence, on Google Drive), we had no time to keep a copy of every single change also on GitHub, hence we decided to put here only the submission folder as a main reference.
+The challenge was a part of the course project and focused on Neural Networks and image classification. Participants had two weeks to develop notebooks related to Neural Networks with the goal of detecting the type of a plant based on its leaves. The dataset, provided in a zipped format, was given by the professors, who kept a private test set for evaluating the models. The performance metric used to compute a "leaderboard" was the mean accuracy. Participants were allowed to form groups of three to participate in the challenge. The primary objective of this competition was to explore the world of Image Classification and gain as much experience as possible in this field.
 
-## Submission
-We had to submit all the scripts we (eventually) used, all the notebooks commented, and a final report of maximum 3 pages, explaining the approach we followed
+## Dataset Description
 
-## Score
-The exam was scored in this way:
-- 20 points of written exam
-- 5 + 0.5 points of challenge 1
-- 5 + 0.5 points of challenge 2
+The zipped file of the dataset contained a folder named "train," which included leaves from different plant classes. Participants were responsible for pre-processing tasks, such as data splitting and any required image augmentation techniques. We developed custom scripts to facilitate better management of the dataset.
 
-The two challenges had 0.5 points of bonus for well done works in order to be able to reach 31 and get the laude.
+## Team Approach
 
-In this challenge we got all the points (5.5).
+We collaborated and agreed upon three different approaches to solve the problem. Each team member took ownership of developing one approach, and we communicated regularly to share ideas and progress. The main ideas were combined, and together we applied them to the chosen approach.
+
+## Replicating Our Results
+
+When running the provided notebooks, exercise caution as the paths to folders (e.g., checkpoints, testing, or loading images) may vary due to different environments. To replicate our results, **adjust the folder paths** according to your system setup. We primarily used Google Colab in conjunction with Google Drive for our development.
+
+## Version Control
+
+Since we extensively worked with Google Colab on Google Drive, we were unable to maintain copies of every single change on GitHub. Therefore, we have included only the final submission folder as the main reference.
+
+## Submission Details
+
+As part of the challenge requirements, we submitted all the scripts used, thoroughly commented notebooks, and a final report of maximum 3 pages, explaining our approach.
+
+## Scoring
+
+The evaluation for the course consisted of the following components:
+
+- 20 points for the written exam
+- 5 + 0.5 points for challenge 1
+- 5 + 0.5 points for challenge 2
+
+Bonus points (0.5) were available for outstanding work, contributing to a maximum of 31 points and the possibility of receiving laude.
+
+In this challenge, we successfully achieved all the points (5.5) for our submission.
+
+Thank you for visiting our repository and exploring our work! If you have any questions or suggestions, feel free to reach out to us. We hope our efforts in tackling this challenge will be helpful and insightful for you in your own explorations of Neural Networks and image classification.
